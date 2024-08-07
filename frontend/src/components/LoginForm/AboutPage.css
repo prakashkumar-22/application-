@@ -1,0 +1,60 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.MuiContainer-root {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.MuiTypography-root {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.MuiTypography-h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1e88e5; /* Primary color */
+}
+
+.MuiTypography-h2, .MuiTypography-h3, .MuiTypography-h4, .MuiTypography-h5, .MuiTypography-h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.MuiCard-root {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.MuiCardContent-root {
+  padding: 20px;
+  text-align: center;
+}
+
+.MuiButton-root {
+  margin-top: 20px;
+  color: #fff;
+  background-color: #1e88e5;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-transform: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: #1565c0; /* Darker shade for hover effect */
+}

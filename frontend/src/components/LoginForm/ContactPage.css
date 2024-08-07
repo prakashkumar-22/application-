@@ -1,0 +1,33 @@
+/* src/pages/ContactPage.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.contact-page {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.MuiPaper-root {
+  background-color: #ffffff;
+}
+
+.MuiTypography-h4 {
+  color: #333;
+  font-weight: 600;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #0056b3;
+}
+
+.MuiTextField-root {
+  border-radius: 8px;
+}

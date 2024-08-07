@@ -1,0 +1,54 @@
+/* DashboardPage.css */
+
+/* Container for the dashboard */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px; /* Added padding for better spacing */
+    background-color: #f4f4f4; /* Light background color for better contrast */
+}
+
+/* Header Typography */
+.dashboard-container .MuiTypography-h4 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600; /* Slightly bolder font weight */
+}
+
+/* Paper component styling */
+.MuiPaper-root {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background for Paper components */
+    padding: 20px; /* Added padding for better content spacing */
+}
+
+/* Chart Container */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Margin for spacing around charts */
+}
+
+/* Chart Styling */
+.recharts-wrapper {
+    font-size: 14px;
+    color: #666; /* Subtle text color for chart labels */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+
+    .dashboard-container .MuiTypography-h4 {
+        font-size: 1.5rem; /* Slightly smaller font size on small screens */
+    }
+
+    .chart-container {
+        flex-direction: column; /* Stack charts vertically on smaller screens */
+    }
+}
